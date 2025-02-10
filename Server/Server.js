@@ -5,6 +5,7 @@ import 'dotenv/config'
 import { connectDb } from './data/dbConnection.js'
 import cors from 'cors'
 import { errorHandler } from './middleware/ErrorHandler.js'
+import ProductsModel from './data/Model/Products.Model.js'
 
 connectDb()
 

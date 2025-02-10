@@ -33,7 +33,7 @@ const productDetails = (props: Props) => {
   return (
     <>
       <Stack.Screen options={{ title: "Product details", headerRight: () => <Link href={'/(tabs)/cart'} asChild><Ionicons name='cart-outline' size={25} /></Link> }} />
-      <ScrollView style={[styles.container,{marginTop:5}]}>
+      <ScrollView showsVerticalScrollIndicator={false} style={[styles.container,{marginTop:5}]}>
         {Details && <ImageSlider images={Details.images} />}
         <View style={[styles.star, styles.star_Ratting]}>
           <View style={styles.star}>

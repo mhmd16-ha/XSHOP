@@ -21,12 +21,7 @@ export default function _layout() {
       //   <Ionicons name='search-outline' size={22} color={color} />
       // )
     }} />
-    <Tabs.Screen name='notification' options={{
-      title: 'Notification',
-      // tabBarIcon: ({color}) => (
-      //   <Ionicons name='notifications-outline' size={22} color={color} />
-      // )
-    }} />
+
     <Tabs.Screen name='cart' options={{
       title: 'Cart',
       // tabBarIcon: ({color}) => (
